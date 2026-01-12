@@ -1,36 +1,13 @@
-/* VAULTLAB CORE STYLES - INDUSTRIAL RESET */
-
-:root {
-  --color-base-background-1: #000000 !important; /* Alles Schwarz */
-  --color-base-text: #ffffff !important;         /* Text Weiss */
-  --page-width: 100% !important;                 /* Volle Breite (Kein Box-Look) */
+/* VAULTLAB TOTAL RESET */
+* {
+  box-sizing: border-box;
 }
 
-body {
-  background-color: #000000 !important;
-  color: #ffffff !important;
-  font-family: 'Arial', sans-serif !important; /* Clean & Technisch */
-}
-
-/* Typografie wie auf einer Blaupause */
-h1, h2, h3, .h1, .h2, .h3 {
-  color: #ffffff !important;
-  text-transform: uppercase;
-  letter-spacing: 0.1em; /* Gesperrte Schrift wirkt teurer */
-  font-weight: bold;
-}
-
-/* Buttons: Eckig und Hart */
-.button, .btn {
-  border-radius: 0px !important;
-  background-color: #ffffff !important;
-  color: #000000 !important;
-  border: 1px solid #ffffff;
-  font-weight: 700;
-}
-
-/* Entfernt runde Ecken von Karten/Bildern */
-.card, .card-wrapper, .media {
-  border-radius: 0px !important;
-  background-color: #111111 !important; /* Dunkles Grau für Produktkarten */
+body, html {
+  background-color: #000000 !important; /* Erzwingt Schwarz */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: white; /* Damit man Text sieht, falls du welchen schreibst */
 }
